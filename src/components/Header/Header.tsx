@@ -1,5 +1,5 @@
 import React from 'react';
-import NavigationButton from "./NavigationButton";
+import NavigationButton, {Paths} from "./NavigationButton";
 import "./header.css"
 
 const Header = () => {
@@ -7,11 +7,11 @@ const Header = () => {
         <div className="header">
             <div className="background-line">
                 <div className="container">
-                    <NavigationButton content="Home" />
-                    <NavigationButton content="About" />
-                    <NavigationButton content="Developers" />
-                    <NavigationButton content="Family" />
-                    <NavigationButton content="Member-info" />
+                    <NavigationButton info={{ path: Paths.Home, label: "Home" }} />
+                    <NavigationButton info={{ path: Paths.About, label: "About" }} />
+                    <NavigationButton info={{ path: Paths.Developers, label: "Developers" }} />
+                    <NavigationButton info={{ path: Paths.Family, label: "Family" }} />
+                    <NavigationButton info={{ path: Paths.Member_Info, label: "Member inf" }} />
                 </div>
             </div>
         </div>
