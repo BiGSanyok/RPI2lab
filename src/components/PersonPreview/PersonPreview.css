@@ -1,0 +1,36 @@
+.person-info-container {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    max-height: fit-content;
+}
+
+.person-info-text
+{
+    width: 50%;
+    min-width: 400px;
+}
+
+.person-info-pictures {
+    width: 50%;
+    min-width: 400px;
+}
+
+.title {
+    margin-left: 3%;
+}
+
+p {
+    margin-left: 2%;
+    text-indent: 3%;
+}
+
+p:last-of-type {
+    font-weight: bolder;
+}
+
+.welcome_img {
+    max-width: 450px;
+    margin: auto;
+}

@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Yuji;
+    src: url(../../../Fonts/YujiHentaiganaAkebono-Regular.ttf);
+}
+
+@font-face {
+    font-family: HannariMincho-Regular;
+    src: url(../../../Fonts/HannariMincho-Regular.otf);
+}
+
+
+
+.introduce-container {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    max-height: fit-content;
+}
+
+.introduce-text
+{
+    width: 50%;
+    min-width: 400px;
+}
+
+.introduce-pictures {
+    width: 50%;
+    min-width: 400px;
+}
+
+.title {
+    margin-left: 3%;
+}
+
+p {
+    margin-left: 2%;
+    text-indent: 3%;
+}
+
+p:last-of-type {
+    font-weight: bolder;
+}
+
+.welcome_img {
+    max-width: 450px;
+    margin: auto;
+}

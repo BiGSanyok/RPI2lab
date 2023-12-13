@@ -1,0 +1,31 @@
+{
+  "people": [
+    {
+      "name": "Alexandr Nediakin",
+      "photoUrl": "",
+      "githubUrl": "https://github.com/BiGSanyok",
+      "githubPhoto": "https://avatars.githubusercontent.com/u/126814273?v=4"
+    },
+    {
+      "name": "Alexandr Marchenko",
+      "photoUrl": "",
+      "githubUrl": "",
+      "githubPhoto": ""
+    },
+    {
+      "name": "Roman Muhtasarov",
+      "photoUrl": "",
+      "githubUrl": "",
+      "githubPhoto": ""
+    },
+    {
+      "name": "Kseniya Shot",
+      "photoUrl": "",
+      "githubUrl": "",
+      "githubPhoto": ""
+    }
+  ],
+  "family": [
+
+  ]
+}
