@@ -1,17 +1,21 @@
 .header {
-    min-height: 100px;
+    max-height: 200px;
     height: 10%;
     width: 100%;
     margin-top: 0;
     display: flex;
-    justify-content: center;
-    flex-flow: column;
+    flex-flow: row;
 }
 
 .background-line {
+    margin: auto 0;
     background-color: crimson;
+    width: 80%;
+}
 
-    width: 100%;
+.header_icon {
+    margin: auto;
+    max-height: 100px;
 }
 
 .container {
@@ -19,7 +23,6 @@
     flex-direction: row;
     flex-flow: wrap;
     justify-content: space-evenly;
-    margin-left: 10%;
     height: 50%;
 
 }

@@ -1,8 +1,29 @@
 .introduce-container {
-    height: 90%;
+    display: flex;
+    flex-direction: row;
+    wrap-option: wrap;
+    max-height: 400px;
 }
 
 .introduce-text
 {
-    margin-left: 20%;
+    border: medium solid red;
+    width: 50%;
+    min-width: 400px;
+}
+
+.introduce-pictures {
+    border: medium solid aqua;
+    width: 50%;
+    min-width: 400px;
+}
+
+.title {
+    margin-left: 3%;
+}
+
+.welcome_img {
+    max-height: 60%;
+    margin: auto;
+    border: medium solid red;
 }
