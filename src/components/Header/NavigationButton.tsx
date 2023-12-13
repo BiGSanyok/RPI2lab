@@ -1,5 +1,6 @@
 import React from 'react';
 import ".//header.css"
+import {Link, NavLink} from "react-router-dom";
 
 export interface ButtonProps{
     content: string;
@@ -7,9 +8,12 @@ export interface ButtonProps{
 }
 const NavigationButton = (props: ButtonProps) => {
     return (
-        <div className="navigation-button">
-            <a href={"/" + props.content}>{props.content}</a>
+        <NavLink to={"/" + props.content}>
+        <div className="navigation-button">{props.content}
+            {/*<a href={"/" + props.content}>{props.content}</a>*/}
+
         </div>
+        </NavLink>
     );
 };
 
