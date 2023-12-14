@@ -8,6 +8,9 @@ import PersonPreviewBlock from "./components/PersonPreview/PersonPreviewBlock";
 import Family from "./components/Family/Family";
 import MemberInfo from "./components/MemberInfo/MemberInfo";
 import ".//OtherStyles/App.css"
+import "./slider"
+import SimpleCarousel from "./slider";
+import "./App.css"
 
 function App() {
 
@@ -22,6 +25,7 @@ function App() {
                 <Route path="/Member-info" element={<MemberInfo />}></Route>
             </Routes>
         </BrowserRouter>
+            <SimpleCarousel />
         <Footer />
     </div>
   );
