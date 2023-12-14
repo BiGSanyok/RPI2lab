@@ -2,18 +2,21 @@ import React from 'react';
 import "./Developers.css"
 
 export interface DeveloperProps {
-    path: string;
     name: string;
-    github: string;
+    photoUrl: string;
+    githubUrl: string;
+    githubPhoto: string;
 }
-const DeveloperBox = (props: DeveloperProps) => {
+const DeveloperBox = ({name, photoUrl, githubUrl, githubPhoto}: DeveloperProps) => {
     return (
-        <div className="columns_box">
-            <div className="column">
-                <img className="team_image" src={props.path}/>
-                <div className="name_box">
-                    <p className="column_text name">{props.name}</p>
-                    <p className="column_text profession">{props.github}</p>
+        <div className="person-card">
+            <img src={photoUrl} alt={name}/>
+            <div className="overlay">
+                <div className="info">
+                    <p>{name}</p>
+                    <a href={githubUrl} target="_blank" rel="noopener noreferrer">
+                        <img src={githubPhoto} alt="GitHub"/>
+                    </a>
                 </div>
             </div>
         </div>
