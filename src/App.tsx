@@ -10,6 +10,7 @@ import MemberInfo from "./components/MemberInfo/MemberInfo";
 import ".//OtherStyles/App.css"
 import "./slider"
 import SimpleCarousel from "./slider";
+import "./App.css"
 
 function App() {
 
