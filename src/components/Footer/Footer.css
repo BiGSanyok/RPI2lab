@@ -1,19 +1,22 @@
 footer {
-    max-height: 200px;
+    max-height: 6vh;
     height: 10%;
     width: 100%;
     display: flex;
     flex-flow: row;
-    background-color: crimson;
     color: #fff;
+    position: fixed;
+    bottom: 0;
     padding: 10px;
+    background-color: crimson;
 }
 
 .FooterContent {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     text-align: center;
+    height: 50%;
 }
 
 .SocialIcons {
