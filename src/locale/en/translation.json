@@ -26,6 +26,59 @@
     }
   ],
   "family": [
-
+    {
+      "name": "Emperor Jimmu",
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Emperor_Jimmu.jpg/220px-Emperor_Jimmu.jpg",
+      "previewText": "Emperor Jimmu was the first and most legendary emperor of Japan. He founded the country after a successful military expedition, culminating in the conquest of Yamato and his potential authority.",
+      "description": "Emperor Jimmu ruled Japan from 660 BCE to 585 BCE. According to legend, he was a descendant of the sun goddess Amaterasu and the first ruler of Japan. He established Yamato, the first capital of Japan, and asserted his authority over other tribes. His reign is considered the beginning of Japanese history.",
+      "birthDate": "711 BCE",
+      "deathDate": "585 BCE"
+    },
+    {
+      "name": "Emperor Hirohito",
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Emperor_Hirohito_cropped_2.jpg/220px-Emperor_Hirohito_cropped_2.jpg",
+      "previewText": "Hirohito, also known as Emperor Showa, was the longest-reigning emperor of Japan, ruling the country for over six tumultuous decades.",
+      "description": "Emperor Hirohito was the 124th emperor of Japan, reigning from 1926 to 1989. His rule spanned the period of World War II and Japan's post-war reconstruction. He was the first Japanese emperor to visit Europe and the United States. In 1946, he renounced his divine status and became a symbol of the state. He passed away in 1989.",
+      "birthDate": "April 29, 1901",
+      "deathDate": "January 7, 1989"
+    },
+    {
+      "name": "Emperor Meiji",
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Emperor_Meiji_2.jpg/220px-Emperor_Meiji_2.jpg",
+      "previewText": "Emperor Meiji was the 122nd emperor of Japan, ruling from 1867 to 1912. He was one of the most influential emperors in Japanese history and is considered a key architect of Japan's modernization. During his reign, Japan underwent several reforms, including the abolition of the han system and the introduction of a constitution. He played a crucial role in shaping Japan's trajectory.",
+      "description": "Emperor Meiji, also known as Mutsuhito, was a transformative figure in Japan's transition from a feudal society to a modern nation. His reign marked significant changes, including the Meiji Restoration, which aimed to strengthen Japan's central government, modernize its military, and promote industrialization. Emperor Meiji's legacy continues to shape Japan's identity and progress."
+    },
+    {
+      "name": "Emperor Suinin",
+      "photoUrl": "URL_Suinin",
+      "previewText": "Suinin - a legendary emperor who ruled from 29 to 70 AD.",
+      "description": "Emperor Suinin was the ninth emperor of Japan. His reign began in 29 AD and lasted for 42 years. He is considered one of the great emperors of Japan and made significant changes to the system of governance. His personal name was Kurokané.",
+      "birthDate": "29 AD",
+      "deathDate": "70 AD"
+    },
+    {
+      "name": "Emperor Keiko",
+      "photoUrl": "URL_Keiko",
+      "previewText": "Keiko - a legendary empress who ruled from 71 to 130 AD.",
+      "description": "Emperor Keiko was the tenth emperor of Japan and the first woman to hold this position. Her reign began in 71 AD and lasted for 59 years. She is considered a symbol of female power and wisdom. Her personal name was Oto-tachi-hime.",
+      "birthDate": "71 AD",
+      "deathDate": "130 AD"
+    },
+    {
+      "name": "Emperor Kaun",
+      "photoUrl": "URL_Kaun",
+      "previewText": "Kaun - a legendary emperor who ruled from 130 to 170 AD.",
+      "description": "Emperor Kaun was the eleventh emperor of Japan. His reign began in 130 AD and lasted for 40 years. His personal name was Kaun-tachi-hime.",
+      "birthDate": "130 AD",
+      "deathDate": "170 AD"
+    },
+    {
+      "name": "Emperor Chuai",
+      "photoUrl": "URL_Chuai",
+      "previewText": "Chuai - a legendary emperor who ruled from 192 to 200 AD.",
+      "description": "Emperor Chuai was the twelfth emperor of Japan. His reign began in 192 AD and lasted for 9 years. His personal name was Homéi.",
+      "birthDate": "192 AD",
+      "deathDate": "200 AD"
+    }
   ]
 }
