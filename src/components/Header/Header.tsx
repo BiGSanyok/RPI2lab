@@ -1,11 +1,11 @@
 import React from 'react';
 import NavigationButton, {Paths} from "./NavigationButton";
 import "./header.css"
-import icon from "../images/icon.png"
+import icon from "../../images/icon.png"
 
 const Header = () => {
     return (
-        <div className="header">
+        <header>
             <div className="background-line">
                 <div className="container">
                     <NavigationButton info={{ path: Paths.Home, label: "Главная" }} />
@@ -16,7 +16,7 @@ const Header = () => {
                 </div>
             </div>
             <img className="header_icon" src={icon}/>
-        </div>
+        </header>
     );
 };
 

@@ -1,5 +1,7 @@
 import React from 'react';
 import "../PersonPreview.css"
+import {Button} from "@mui/material";
+
 
 const PersonPreviewContent = () => {
     const clickHandler = () => {
@@ -9,7 +11,9 @@ const PersonPreviewContent = () => {
         <div className="person-info-text">
             <h1 className="title">Семья Ямато</h1>
             <p></p>
-            <div className="button" onClick={clickHandler}>button</div>
+            <Button variant="contained">
+                Add item
+            </Button>
         </div>
     );
 };
