@@ -2,21 +2,23 @@ footer {
     max-height: 6vh;
     height: 10%;
     width: 100%;
-    display: flex;
-    flex-flow: row;
+    /*display: flex;*/
+    /*align-items: center;*/
     color: #fff;
-    position: fixed;
-    bottom: 0;
     padding: 10px;
     background-color: crimson;
+    margin-top: 30px;
 }
 
 .FooterContent {
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
+    align-content: center;
     text-align: center;
     height: 50%;
+    margin: auto;
 }
 
 .SocialIcons {
@@ -34,5 +36,5 @@ footer {
 }
 
 .SocialIcons a:hover {
-    color: #55acee;
+    color: darkred;
 }

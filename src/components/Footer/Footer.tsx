@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <footer>
             <div className="FooterContent">
-                <p>&copy; hdhdhdh</p>
+                <p>&copy; All rights are reserved. BSUIR. Modernity.</p>
                 <div className="SocialIcons">
                     <a href="https://web.telegram.org/" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-telegram"></i>

@@ -34,3 +34,38 @@ p:last-of-type {
     max-width: 450px;
     margin: auto;
 }
+
+
+.PersonPreviewCard {
+    margin-bottom: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial;
+}
+
+.person_container {
+    padding: 10px;
+}
+
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.image {
+    width: 100%;
+}
+

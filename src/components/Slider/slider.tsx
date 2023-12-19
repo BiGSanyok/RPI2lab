@@ -1,7 +1,7 @@
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import App from "./App";
+import App from "../../App";
 const SimpleCarousel = () => {
 
     const settings = {

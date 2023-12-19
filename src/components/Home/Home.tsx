@@ -1,12 +1,13 @@
 import React from 'react';
 import WelcomePage from "./WelcomePage/WelcomePage";
-import PersonPreviewBlock, {StyleTypes} from "../PersonPreview/PersonPreviewBlock";
+import PersonPreviewCard, {StyleTypes} from "../PersonPreview/PersonPreviewCard";
 import {Button} from "@mui/material";
 
 const Home = () => {
     return (
         <div>
             <WelcomePage />
+
         </div>
     );
 };

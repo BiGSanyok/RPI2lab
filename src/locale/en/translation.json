@@ -26,6 +26,34 @@
     }
   ],
   "family": [
-
+    {
+      "photo": "/src/images/Dzimu.jpeg",
+      "name": "Emperor Jimmu",
+      "lifespan": "711-585 BC",
+      "description": "Emperor Jimmu was the first Emperor of Japan. He is a legendary figure and his existence is debated by historians.",
+      "short_description": "First Emperor of Japan"
+    },
+    {
+      "photo": "/src/images/Dzimu.jpeg",
+      "name": "Emperor Meiji",
+      "lifespan": "1852-1912",
+      "description": "Emperor Meiji was the 122nd Emperor of Japan. He presided over a time of rapid modernization and westernization of Japan.",
+      "short_description": "122nd Emperor of Japan"
+    },
+    {
+      "photo": "/src/images/Hiruhitu.jpeg",
+      "name": "Emperor Hirohito",
+      "lifespan": "1901-1989",
+      "description": "Emperor Hirohito was the 124th Emperor of Japan. He reigned during World War II and the post-war period.",
+      "short_description": "124th Emperor of Japan"
+    },
+    {
+      "photo": "/src/images/Komei.jpeg",
+      "name": "Emperor Akihito",
+      "lifespan": "born 1933",
+      "description": "Emperor Akihito is the 125th Emperor of Japan. He reigned from 1989 to 2019, when he abdicated the throne.",
+      "short_description": "125th Emperor of Japan"
+    }
   ]
+
 }

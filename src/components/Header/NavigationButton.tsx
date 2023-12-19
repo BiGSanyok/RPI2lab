@@ -7,7 +7,7 @@ interface LanguageInfo {
 }
 
 export enum Paths {
-    Home = "Home",
+    Home = "",
     About = "About",
     Developers = "Developers",
     Family = "Family",
