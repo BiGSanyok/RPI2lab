@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    max-width: 81%;
 }
 
 .person-card {
@@ -13,6 +14,8 @@
     transition: transform 0.5s ease-in-out;
     width: 20rem;
     height: 26rem;
+    max-width: 20rem;
+    max-height: 26rem;
 }
 
 .person-card:hover {
@@ -22,6 +25,7 @@
 .person-card img {
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 .overlay {
@@ -48,6 +52,7 @@
 }
 
 .info p {
+    margin-left: 2rem;
     font-size: 1.5rem;
 }
 
@@ -60,7 +65,7 @@
     height: 50px;
     border-radius: 50%;
     transition: transform 0.5s ease-in-out;
-    margin-left: 1rem;
+    margin-right: 5rem;
 }
 
 .overlay img:hover {

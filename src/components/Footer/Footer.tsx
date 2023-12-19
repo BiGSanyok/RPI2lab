@@ -1,9 +1,13 @@
 import React from 'react';
 import "./Footer.css"
+import i18next from 'i18next'
 
 const Footer = () => {
     const handleScrollToTop = () => {
         window.scrollTo({ top: 0 });
+    };
+    const toggleLanguage = () => {
+        i18next.changeLanguage(i18next.language === 'en' ? 'ru' : 'en');
     };
     return (
         <footer>
@@ -22,7 +26,9 @@ const Footer = () => {
                     <a href="#" onClick={handleScrollToTop} rel="noopener noreferrer">
                         <i className="fa-solid fa-arrow-up"></i>
                     </a>
-
+                    <div onClick={toggleLanguage} className={"translate-button"}>
+                        RU/EN
+                    </div>
                 </div>
             </div>
         </footer>
