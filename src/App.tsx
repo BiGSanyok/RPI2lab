@@ -8,25 +8,23 @@ import PersonPreviewCard from "./components/PersonPreview/PersonPreviewCard";
 import Family from "./components/Family/Family";
 import MemberInfo from "./components/MemberInfo/MemberInfo";
 import "./App.css"
-import "./components/Slider/slider"
-import SimpleCarousel from "./components/Slider/slider";
 import "./App.css"
 
 function App() {
 
   return (
-    <div className="App">
+      <BrowserRouter>
         <Header />
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Home />}></Route>
-                <Route path="/Developers" element={<Developers />}></Route>
-                <Route path="/Family" element={<Family />}></Route>
-                <Route path="/Member-info" element={<MemberInfo />}></Route>
-            </Routes>
-        </BrowserRouter>
+        <main>
+                <Routes>
+                    <Route path="/" element={<Home />}></Route>
+                    <Route path="/Developers" element={<Developers />}></Route>
+                    <Route path="/Family" element={<Family />}></Route>
+                    <Route path="/Member-info" element={<MemberInfo />}></Route>
+                </Routes>
+        </main>
         <Footer />
-    </div>
+      </BrowserRouter>
   );
 }
 

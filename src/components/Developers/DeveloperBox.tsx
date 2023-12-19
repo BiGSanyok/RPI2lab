@@ -1,13 +1,8 @@
 import React from 'react';
 import "./Developers.css"
+import {IDeveloperProps} from "../interfaces/developerProps";
 
-export interface DeveloperProps {
-    name: string;
-    photoUrl: string;
-    githubUrl: string;
-    githubPhoto: string;
-}
-const DeveloperBox = ({name, photoUrl, githubUrl, githubPhoto}: DeveloperProps) => {
+const DeveloperBox = ({name, photoUrl, githubUrl, githubPhoto}: IDeveloperProps) => {
     return (
         <div className="person-card">
             <img src={photoUrl} alt={name}/>
