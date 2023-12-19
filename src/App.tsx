@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Developers from "./components/Developers/Developers";
 import Home from "./components/Home/Home";
+import About from "./components/About/About";
 import PersonPreviewCard from "./components/PersonPreview/PersonPreviewCard";
 import Family from "./components/Family/Family";
 import MemberInfo from "./components/MemberInfo/MemberInfo";
@@ -21,6 +22,7 @@ function App() {
                     <Route path="/Developers" element={<Developers />}></Route>
                     <Route path="/Family" element={<Family />}></Route>
                     <Route path="/Member-info" element={<MemberInfo />}></Route>
+                    <Route path="/About" element={<About />}></Route>
                 </Routes>
         </main>
         <Footer />
