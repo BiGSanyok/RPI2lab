@@ -5,11 +5,11 @@ import {useTranslation} from "react-i18next";
 import photo from "../../images/Kamu.jpeg"
 import "./FamilyMemberCard.css"
 
-export default function WinnerCard({id, name, cardInfo, birthYear} : IFamilyMemberData) {
+export default function WinnerCard({id, name, cardInfo, birthYear, deathYear} : IFamilyMemberData) {
     const navigate = useNavigate();
     const {t} = useTranslation();
     const handleCardClick = () => {
-        navigate(`/star-factory-winners/winners/${id}`);
+        navigate(`/Family/${id}`);
         window.scrollTo(0, 0);
     };
 
@@ -22,14 +22,14 @@ export default function WinnerCard({id, name, cardInfo, birthYear} : IFamilyMemb
                         {name}
                     </Typography>
                     <Typography gutterBottom variant="h6" component="div" color="primary">
-                        {t('age-info')}{birthYear}
+                        {t('age-info')}: {birthYear} - {deathYear}
                     </Typography>
                     <Typography className="subtitle" variant="body1" color="text.secondary">
                         {cardInfo}
                     </Typography>
                 </CardContent>
             </CardActionArea>
-            <div className="container">
+            <div className="member_container">
                 <a onClick={handleCardClick} className="btn">{t('more')}</a>
             </div>
         </>
