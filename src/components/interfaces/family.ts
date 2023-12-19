@@ -1,7 +1,8 @@
 export interface IFamilyMemberData {
-    "photo": string;
     "name": string;
-    "lifespan": string;
+    "id": string;
+    "birthYear": string;
+    "deathYear": string;
     "description": string;
-    "short_description": string;
+    "cardInfo": string;
 }
