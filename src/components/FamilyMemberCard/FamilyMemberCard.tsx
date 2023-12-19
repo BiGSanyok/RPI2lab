@@ -14,7 +14,7 @@ export default function WinnerCard({id, name, cardInfo, birthYear, deathYear} : 
     };
 
     return (
-        <>
+        <div>
             <CardActionArea onClick={handleCardClick}>
                 <CardMedia component="img" height="auto" image={photo} alt={`person ${id}`} />
                 <CardContent>
@@ -32,6 +32,6 @@ export default function WinnerCard({id, name, cardInfo, birthYear, deathYear} : 
             <div className="member_container">
                 <a onClick={handleCardClick} className="btn">{t('more')}</a>
             </div>
-        </>
+        </div>
     );
 }

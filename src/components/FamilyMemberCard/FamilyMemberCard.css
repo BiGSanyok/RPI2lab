@@ -1,30 +1,33 @@
-.winnerClass {
+
+
+.familyClass {
     margin-bottom: 30px;
 }
 
-.winnerClass .title {
+.familyClass .title {
     font-size: 3vw;
 }
 
-.winnerClass .subtitle {
+.familyClass .subtitle {
     font-size: 1rem;
 }
 
-.winnerClass .member_container {
+.familyClass .member_container {
     position: relative;
     height: 5rem;
 }
 
-.winnerClass .member_container .btn {
+.familyClass .member_container .btn {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 18px;
     padding: 1em 3.5em;
+    color: black;
 }
 
-.winnerClass .member_container .btn::before, .winnerClass .member_container .btn::after {
+.familyClass .member_container .btn::before, .familyClass .member_container .btn::after {
     content: '';
     width: 100%;
     height: 100%;
@@ -35,28 +38,29 @@
     transition: top 0.5s, left 0.5s;
 }
 
-.winnerClass .member_container .btn::before {
-    border-left: 2px solid #29a19c;
-    border-top: 2px solid #29a19c;
+.familyClass .member_container .btn::before {
+    border-left: 2px solid crimson;
+    border-top: 2px solid crimson;
 }
 
-.winnerClass .member_container .btn::after {
-    border-right: 2px solid #29a19c;
-    border-bottom: 2px solid #29a19c;
+.familyClass .member_container .btn::after {
+    border-right: 2px solid crimson;
+    border-bottom: 2px solid crimson;
 }
 
-.winnerClass .member_container .btn:hover::before {
+.familyClass .member_container .btn:hover::before {
     top: -5px;
     left: -15px;
 }
 
-.winnerClass .member_container .btn:hover::after {
+.familyClass .member_container .btn:hover::after {
     top: 5px;
     left: 15px;
 }
 
 @media (max-width: 768px) {
-    .winnerClass .title {
+    .familyClass .title {
         font-size: 3vh;
     }
 }
+
