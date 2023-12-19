@@ -27,33 +27,214 @@
   ],
   "family": [
     {
-      "photo": "/src/images/Dzimu.jpeg",
-      "name": "Emperor Jimmu",
-      "lifespan": "711-585 BC",
-      "description": "Emperor Jimmu was the first Emperor of Japan. He is a legendary figure and his existence is debated by historians.",
-      "short_description": "First Emperor of Japan"
-    },
-    {
-      "photo": "/src/images/Dzimu.jpeg",
-      "name": "Emperor Meiji",
-      "lifespan": "1852-1912",
-      "description": "Emperor Meiji was the 122nd Emperor of Japan. He presided over a time of rapid modernization and westernization of Japan.",
-      "short_description": "122nd Emperor of Japan"
-    },
-    {
-      "photo": "/src/images/Hiruhitu.jpeg",
-      "name": "Emperor Hirohito",
-      "lifespan": "1901-1989",
-      "description": "Emperor Hirohito was the 124th Emperor of Japan. He reigned during World War II and the post-war period.",
-      "short_description": "124th Emperor of Japan"
-    },
-    {
-      "photo": "/src/images/Komei.jpeg",
       "name": "Emperor Akihito",
-      "lifespan": "born 1933",
-      "description": "Emperor Akihito is the 125th Emperor of Japan. He reigned from 1989 to 2019, when he abdicated the throne.",
-      "short_description": "125th Emperor of Japan"
+      "id": "1",
+      "birthYear": "1933",
+      "deathYear": "present day",
+      "description": "The reigning Emperor of Japan, 125th in the dynasty",
+      "cardInfo": "His posthumous name will be Heisei. Currently, Akihito is the only reigning emperor in the world.",
+      "dates": [
+        {
+          "dateTitle": "1940-1952",
+          "dateInfo": "Studied at Gakushuin University's Peers' School (Kadzoku)",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1329-akihito"
+        },
+        {
+          "dateTitle": "1952-1956",
+          "dateInfo": "Studied politics at Gakushuin University's Faculty of Politics and Economics",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1329-akihito"
+        },
+        {
+          "dateTitle": "1988",
+          "dateInfo": "Assumed a number of state duties, including participation in the opening ceremony of the parliamentary session",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1329-akihito"
+        },
+        {
+          "dateTitle": "1989",
+          "dateInfo": "Became the Emperor of Japan, succeeding his father on the throne",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1329-akihito"
+        }
+      ]
+    },
+    {
+      "name": "Emperor Hirohito",
+      "id": "2",
+      "birthYear": "1901",
+      "deathYear": "1989",
+      "description": "Emperor of Japan, 124th in the dynasty",
+      "cardInfo": "Commander-in-chief of the Japanese forces, held the rank of British honorary general and later, honorary field marshal.",
+      "dates": [
+        {
+          "dateTitle": "1908-1914",
+          "dateInfo": "Studied at the Peers' School (Kizoku) for children of the highest aristocracy",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1328-hirihito"
+        },
+        {
+          "dateTitle": "1914-1921",
+          "dateInfo": "Studied at the Special Institute of the Crown Prince under the guidance of the best scholars of the Tokyo Imperial University and the highest military ranks of Japan",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1328-hirihito"
+        },
+        {
+          "dateTitle": "1926",
+          "dateInfo": "Became the Emperor of Japan",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1328-hirihito"
+        },
+        {
+          "dateTitle": "1989",
+          "dateInfo": "Death of Emperor Hirohito",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1328-hirihito"
+        }
+      ]
+    },
+    {
+      "name": "Emperor Taishō",
+      "id": "3",
+      "birthYear": "1879",
+      "deathYear": "1926",
+      "description": "Emperor of Japan, 123rd in the dynasty",
+      "cardInfo": "The period of Japanese history under the reign of Emperor Yoshihito is called the Taishō period.",
+      "dates": [
+        {
+          "dateTitle": "1889",
+          "dateInfo": "Was proclaimed Crown Prince",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1327-tayse"
+        },
+        {
+          "dateTitle": "1912",
+          "dateInfo": "Ascended to the throne",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1327-tayse"
+        },
+        {
+          "dateTitle": "1921",
+          "dateInfo": "Due to poor health, he was forced to retire from public duties",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1327-tayse"
+        },
+        {
+          "dateTitle": "1926",
+          "dateInfo": "Death of Emperor Taishō",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1327-tayse"
+        }
+      ]
+    },
+    {
+      "name": "Emperor Meiji",
+      "id": "4",
+      "birthYear": "1852",
+      "deathYear": "1912",
+      "description": "Emperor of Japan, 122nd in the dynasty",
+      "cardInfo": "The period of Japanese history under the reign of Emperor Yoshihito is called the Taishō period. His posthumous name was Mutsuhito, although he is occasionally referred to as 'Emperor Mutsuhito' outside Japan, deceased emperors in Japan are only referred to by their posthumous name.",
+      "dates": [
+        {
+          "dateTitle": "1868",
+          "dateInfo": "Renamed the city of Edo to Tokyo",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1326-maydziimp"
+        },
+        {
+          "dateTitle": "1871",
+          "dateInfo": "By imperial decree, autonomous regions were abolished and the country was divided into 72 prefectures",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1326-maydziimp"
+        },
+        {
+          "dateTitle": "1889",
+          "dateInfo": "Tokyo became the capital of the country",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1326-maydziimp"
+        },
+        {
+          "dateTitle": "1912",
+          "dateInfo": "Death of Emperor Meiji",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1326-maydziimp"
+        }
+      ]
+    },
+    {
+      "name": "Emperor Komei",
+      "id": "5",
+      "birthYear": "1831",
+      "deathYear": "1867",
+      "description": "Emperor of Japan, 121st in the dynasty",
+      "cardInfo": "Emperor Komei was the last emperor to receive an imperial name posthumously.",
+      "dates": [
+        {
+          "dateTitle": "1840",
+          "dateInfo": "Received the title of Crown Prince",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1325-komey"
+        },
+        {
+          "dateTitle": "1846",
+          "dateInfo": "Became the Emperor of Japan",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1325-komey"
+        },
+        {
+          "dateTitle": "1860",
+          "dateInfo": "Embarked on a path of restoring cooperation with the shogunate to implement a course against foreigners",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1325-komey"
+        },
+        {
+          "dateTitle": "1860",
+          "dateInfo": "Death of Emperor Komei",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1325-komey"
+        }
+      ]
+    },
+    {
+      "name": "Emperor Sakuramati",
+      "id": "6",
+      "birthYear": "1720",
+      "deathYear": "1750",
+      "description": "Emperor of Japan, 115th in the dynasty",
+      "cardInfo": "Had the title of Wakano-miya.",
+      "dates": [
+        {
+          "dateTitle": "1728",
+          "dateInfo": "Became the Crown Prince",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1323-sakuramati"
+        },
+        {
+          "dateTitle": "1735",
+          "dateInfo": "Became the Emperor of Japan",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1323-sakuramati"
+        },
+        {
+          "dateTitle": "1747",
+          "dateInfo": "Abdicated in favor of his son Tohito",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1323-sakuramati"
+        },
+        {
+          "dateTitle": "1750",
+          "dateInfo": "Death of Emperor Sakuramati",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1323-sakuramati"
+        }
+      ]
+    },
+    {
+      "name": "Emperor Higashiyama",
+      "id": "7",
+      "birthYear": "1675 ",
+      "deathYear": "1709",
+      "description": "Emperor of Japan, 113th in the dynasty",
+      "cardInfo": "Ascended to the throne after the abdication of Emperor Reigen",
+      "dates": [
+        {
+          "dateTitle": "1675",
+          "dateInfo": "Birth of Emperor Higashiyama",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1322-higasi"
+        },
+        {
+          "dateTitle": "1687",
+          "dateInfo": "Received the title of Crown Prince",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1322-higasi"
+        },
+        {
+          "dateTitle": "1701",
+          "dateInfo": "Almost lost power after the incident with the 47 ronin",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1322-higasi"
+        },
+        {
+          "dateTitle": "1709",
+          "dateInfo": "Abdicated in favor of his fifth son, Prince Yasuhito",
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1322-higasi"
+        }
+      ]
     }
   ]
-
 }
