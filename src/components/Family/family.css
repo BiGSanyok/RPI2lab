@@ -1,5 +1,7 @@
-.winnersClass {
+.familyClass {
+    width: 80%;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 50px 30px;
@@ -17,11 +19,4 @@
 
 .search-input:focus-within {
     box-shadow: 0 0 10px rgba(29, 20, 29, 0.5);
-}
-
-.winnersClass {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 50px 30px;
 }

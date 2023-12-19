@@ -7,7 +7,8 @@ import {IFamilyMemberData} from "../interfaces/family";
 import {useState} from "react";
 import {Card, InputAdornment, TextField } from '@mui/material';
 import {useTranslation} from "react-i18next";
-import image from "../../images/Komei.jpeg"
+import FamilyMemberCard from "../FamilyMemberCard/FamilyMemberCard"
+import "./family.css"
 
 
 const Family = () => {
@@ -20,7 +21,7 @@ const Family = () => {
 
     const family : IFamilyMemberData[] = t('family', {returnObjects: true});
 
-    const filteredWinners = family.filter(
+    const filteredMembers = family.filter(
         (family: IFamilyMemberData) =>
             family.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
             family.description.toLowerCase().includes(searchTerm.toLowerCase())
@@ -39,10 +40,10 @@ const Family = () => {
                            }}
                 />
             </div>
-            <div className={'winnersClass'}>
-                {filteredWinners.map((winner: IFamilyMemberData) => (
-                    <Card className="winnerClass" sx={{ width: 0.475 }}>
-                        <img src={image}/>
+            <div className={'familyClass'}>
+                {filteredMembers.map((familyMember: IFamilyMemberData) => (
+                    <Card className="familyClass" sx={{ width: 0.475 }}>
+                        <FamilyMemberCard key={familyMember.id} {...familyMember} />
                     </Card>
                 ))}
             </div>
