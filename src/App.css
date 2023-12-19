@@ -9,10 +9,12 @@
     font-family: HanZi;
 }
 
-* {
+*, *:before, *:after {
     box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 main {
-    flex: 1 0;
 }

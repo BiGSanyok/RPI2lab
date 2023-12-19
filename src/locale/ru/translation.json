@@ -1,30 +1,30 @@
 {
   "more": "Подробнее",
   "people": [
-    {
-      "name": "Александр Недякин",
-      "photoUrl": "",
-      "githubUrl": "https://github.com/BiGSanyok",
-      "githubPhoto": "https://avatars.githubusercontent.com/u/126814273?v=4"
-    },
-    {
-      "name": "Александр Марченко",
-      "photoUrl": "",
-      "githubUrl": "",
-      "githubPhoto": ""
-    },
-    {
-      "name": "Роман Мухтасаров",
-      "photoUrl": "",
-      "githubUrl": "",
-      "githubPhoto": ""
-    },
-    {
-      "name": "Ксения Шоть",
-      "photoUrl": "",
-      "githubUrl": "",
-      "githubPhoto": ""
-    }
+          {
+            "name": "Александр Недякин",
+            "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Emperor_Higashiyama.jpg/440px-Emperor_Higashiyama.jpg",
+            "githubUrl": "https://github.com/BiGSanyok",
+            "githubPhoto": "https://avatars.githubusercontent.com/u/126814273?v=4"
+          },
+          {
+            "name": "Александр Марченко",
+            "photoUrl": "RPI2/src/images/Dzimu.jpeg",
+            "githubUrl": "https://github.com/quantum32043",
+            "githubPhoto": "https://avatars.githubusercontent.com/u/126798468?v=4"
+          },
+          {
+            "name": "Роман Мухтасаров",
+            "photoUrl": "",
+            "githubUrl": "https://github.com/Roma123qwe",
+            "githubPhoto": "https://avatars.githubusercontent.com/u/60100943?v=4"
+          },
+          {
+            "name": "Ксения Шоть",
+            "photoUrl": "",
+            "githubUrl": "",
+            "githubPhoto": ""
+          }
   ],
   "family": [
     {

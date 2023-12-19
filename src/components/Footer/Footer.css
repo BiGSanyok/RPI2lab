@@ -1,5 +1,5 @@
 footer {
-    max-height: 6vh;
+    max-height: 100vh;
     height: 10%;
     width: 100%;
     /*display: flex;*/
@@ -7,7 +7,7 @@ footer {
     color: #fff;
     padding: 10px;
     background-color: crimson;
-    margin-top: 30px;
+    margin-top: auto;
 }
 
 .FooterContent {
@@ -37,4 +37,10 @@ footer {
 
 .SocialIcons a:hover {
     color: darkred;
+}
+
+.translate-button:hover {
+    color: darkred;
+    transition: color 0.5s ease;
+    cursor: pointer;
 }
