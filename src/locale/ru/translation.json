@@ -5,30 +5,30 @@
   "aboutTitle": "Кто такая семья Ямато?",
   "aboutText": "Японский императорский дом (яп. 皇室; ко:сицу), также известный как императорская семья и династия Ямато, или Сумэраги — общее название для обозначения японской монаршей династии — императора и членов императорской семьи. Согласно нынешней Конституции Японии, император является «символом государства и единства нации». Другие члены императорской семьи выполняют церемониальные и общественные обязанности, но не играют никакой роли в государственных делах. Обязанности императора передаются по наследству их детям мужского пола.\n\nЯпонская монархия считается самой древней непрерывной наследственной монархией в мире. Императорский Дом признает 126 монархов, начиная с легендарного императора Дзимму (традиционно датируемого 11 февраля 660 года до н. э.) и продолжая до нынешнего императора Нарухито.\n\nИсторические свидетельства о первых 29 императорах основаны на легендах, но есть твёрдые свидетельства о наследственной линии с тех пор, как император Киммэй взошёл на трон 1500 лет назад.",
   "people": [
-          {
-            "name": "Александр Недякин",
-            "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Emperor_Higashiyama.jpg/440px-Emperor_Higashiyama.jpg",
-            "githubUrl": "https://github.com/BiGSanyok",
-            "githubPhoto": "https://avatars.githubusercontent.com/u/126814273?v=4"
-          },
-          {
-            "name": "Александр Марченко",
-            "photoUrl": "RPI2/src/images/Dzimu.jpeg",
-            "githubUrl": "https://github.com/quantum32043",
-            "githubPhoto": "https://avatars.githubusercontent.com/u/126798468?v=4"
-          },
-          {
-            "name": "Роман Мухтасаров",
-            "photoUrl": "",
-            "githubUrl": "https://github.com/Roma123qwe",
-            "githubPhoto": "https://avatars.githubusercontent.com/u/60100943?v=4"
-          },
-          {
-            "name": "Ксения Шоть",
-            "photoUrl": "",
-            "githubUrl": "",
-            "githubPhoto": ""
-          }
+    {
+      "name": "Александр Недякин",
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Emperor_Higashiyama.jpg/440px-Emperor_Higashiyama.jpg",
+      "githubUrl": "https://github.com/BiGSanyok",
+      "githubPhoto": "https://avatars.githubusercontent.com/u/126814273?v=4"
+    },
+    {
+      "name": "Александр Марченко",
+      "photoUrl": "RPI2/src/images/Dzimu.jpeg",
+      "githubUrl": "https://github.com/quantum32043",
+      "githubPhoto": "https://avatars.githubusercontent.com/u/126798468?v=4"
+    },
+    {
+      "name": "Роман Мухтасаров",
+      "photoUrl": "",
+      "githubUrl": "https://github.com/Roma123qwe",
+      "githubPhoto": "https://avatars.githubusercontent.com/u/60100943?v=4"
+    },
+    {
+      "name": "Ксения Шоть",
+      "photoUrl": "",
+      "githubUrl": "",
+      "githubPhoto": ""
+    }
   ],
   "family": [
     {
@@ -74,22 +74,30 @@
         {
           "title": "1908-1914",
           "cardTitle": "Учился в школе для детей высшей аристократии (кидзоку)",
-          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1328-hirihito"
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1328-hirihito",
+          "cardSubtitle": "string",
+          "cardDetailedText": "string"
         },
         {
           "title": "1914-1921",
           "cardTitle": "Учился в специальном Институте наследного принца под руководством лучших учёных Токийского императорского университета и высших военных чинов Японии",
-          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1328-hirihito"
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1328-hirihito",
+          "cardSubtitle": "string",
+          "cardDetailedText": "string"
         },
         {
           "title": "1926",
           "cardTitle": "Стал Императором Японии",
-          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1328-hirihito"
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1328-hirihito",
+          "cardSubtitle": "string",
+          "cardDetailedText": "string"
         },
         {
           "title": "1989",
           "cardTitle": "Смерть Императора Хирохито",
-          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1328-hirihito"
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1328-hirihito",
+          "cardSubtitle": "string",
+          "cardDetailedText": "string"
         }
       ],
       "youtube": "https://www.youtube.com/watch?v=xTdRuInD8fQ",

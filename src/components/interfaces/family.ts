@@ -1,7 +1,9 @@
 export interface IFamilyMemberDates{
-    dateTitle: string;
-    dateInfo:  string;
+    title: string;
+    cardTitle: string;
     url: string;
+    cardSubtitle: string;
+    cardDetailedText: string;
 }
 
 
