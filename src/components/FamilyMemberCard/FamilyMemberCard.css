@@ -48,15 +48,25 @@
     border-bottom: 2px solid crimson;
 }
 
-.familyClass .member_container .btn:hover::before {
-    top: -5px;
-    left: -15px;
+.familyClass .member_container .btn:hover{
+    background-color: tomato;
+    margin: -5px;
+    transition: margin-top .5s, margin-left .5s;
+    box-shadow: 3px 3px 2px 2px rgba(0,0,0,0.2);
+}
+.familyClass .member_container .btn:not(:hover){
+    transition: margin-top .5s, margin-left .5s;
 }
 
-.familyClass .member_container .btn:hover::after {
-    top: 5px;
-    left: 15px;
-}
+/*.familyClass .member_container .btn:hover::before {*/
+/*    top: -5px;*/
+/*    left: -15px;*/
+/*}*/
+
+/*.familyClass .member_container .btn:hover::after {*/
+/*    top: 5px;*/
+/*    left: 15px;*/
+/*}*/
 
 @media (max-width: 768px) {
     .familyClass .title {
