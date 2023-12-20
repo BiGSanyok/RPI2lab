@@ -17,4 +17,7 @@
 }
 
 main {
+    background-image: url("./components/Home/WelcomePage/img3.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
 }
