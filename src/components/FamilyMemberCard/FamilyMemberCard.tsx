@@ -5,7 +5,7 @@ import {useTranslation} from "react-i18next";
 import photo from "../../images/Kamu.jpeg"
 import "./FamilyMemberCard.css"
 
-export default function WinnerCard({id, name, cardInfo, birthYear, deathYear} : IFamilyMemberData) {
+export default function MemberCard({id, name, cardInfo, birthYear, deathYear} : IFamilyMemberData) {
     const navigate = useNavigate();
     const {t} = useTranslation();
     const handleCardClick = () => {
