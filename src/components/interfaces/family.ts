@@ -1,3 +1,5 @@
+import {IGallery} from "./gallery";
+
 export interface IFamilyMemberDates{
     title: string;
     cardTitle: string;
@@ -5,8 +7,6 @@ export interface IFamilyMemberDates{
     cardSubtitle: string;
     cardDetailedText: string;
 }
-
-
 
 export interface IFamilyMemberData {
     name: string;
@@ -18,6 +18,7 @@ export interface IFamilyMemberData {
     cardInfo: string;
     youtube: string;
     maps: string;
+    photos: IGallery[];
     items: IFamilyMemberDates[];
 }
 
