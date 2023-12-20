@@ -9,6 +9,7 @@
 }
 
 .person-card {
+    border-color: crimson;
     position: relative;
     margin: 1rem;
     overflow: hidden;

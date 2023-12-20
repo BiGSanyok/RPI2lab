@@ -1,7 +1,7 @@
 import React from 'react';
 import NavigationButton, {Paths} from "./NavigationButton";
 import "./header.css"
-import icon from "../../images/icon.png"
+import icon from "./icon.png"
 
 const Header = () => {
     return (

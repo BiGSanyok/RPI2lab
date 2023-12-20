@@ -1,7 +1,7 @@
 import React from 'react';
 import img from "../Home/WelcomePage/img.png";
 import "./PersonPreview.css"
-import photo from "../../images/Hiruhitu.jpeg"
+import photo from "../../../public/images/Hiruhitu.jpeg"
 
 export enum StyleTypes {normal, reverse}
 
