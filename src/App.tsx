@@ -8,6 +8,7 @@ import About from "./components/About/About";
 import PersonPreviewCard from "./components/PersonPreview/PersonPreviewCard";
 import Family from "./components/Family/Family";
 import MemberInfo from "./components/MemberInfo/MemberInfo";
+import FamilyMemberPage from "./components/FamilyMemberPage/FamilyMemberPage"
 import "./App.css"
 import "./App.css"
 
@@ -23,7 +24,7 @@ function App() {
                     <Route path="/Family" element={<Family />}></Route>
                     <Route path="/Member-info" element={<MemberInfo />}></Route>
                     <Route path="/About" element={<About />}></Route>
-                    <Route path="/Family/:id" element={<MemberInfo />} />
+                    <Route path="/Family/:id" element={<FamilyMemberPage />} />
                 </Routes>
         </main>
         <Footer />

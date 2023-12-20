@@ -1,3 +1,11 @@
+export interface IFamilyMemberDates{
+    "dateTitle": string;
+    "dateInfo":  string;
+    "url": string;
+}
+
+
+
 export interface IFamilyMemberData {
     "name": string;
     "id": string;
@@ -5,4 +13,6 @@ export interface IFamilyMemberData {
     "deathYear": string;
     "description": string;
     "cardInfo": string;
+    "FamilyMemberDates": IFamilyMemberDates[];
 }
+

@@ -16,6 +16,7 @@
     height: 26rem;
     max-width: 20rem;
     max-height: 26rem;
+    border-radius: 10px;
 }
 
 .person-card:hover {
