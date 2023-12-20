@@ -9,7 +9,7 @@ export default function WinnerPage() {
     const {t} = useTranslation();
     const { id } = useParams();
     const family: IFamilyMemberData[] = t('family', {returnObjects: true});
-    const familyMember = family.find((familyMember : IFamilyMemberData) => familyMember.id === id);
+    const familyMember = family.find((familyMember : IFamilyMemberData) => familyMember.id === Number(id!));
 
     return (
         <>
