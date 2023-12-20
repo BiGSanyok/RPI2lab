@@ -1,14 +1,15 @@
 import React from 'react';
 import ".//WelcomePage.css"
+import {useTranslation} from "react-i18next";
 
 const WelcomePage = () => {
+    const {t} = useTranslation();
     return (
         <div className="introduce-container">
             <div className="introduce-text">
-                <h1 className="title">Семья Ямато</h1>
-                <p>Японская монархия считается самой древней непрерывной наследственной монархией в мире.
-                    Императорский Дом признает 126 монархов, начиная с легендарного императора Дзимму правившего в 7 веке до нашей эры.</p>
-                <p>Этот сайт посвящен семье последних императоров нашей планеты.</p>
+                <h1 className="title">{t('title')}</h1>
+                <p>{t('text')}</p>
+                <p>{t('sup-text')}</p>
             </div>
         </div>
     );

@@ -7,8 +7,6 @@ import PersonContent from "../PersonContent/PersonContent";
 import Gallery from "../Gallery/gallery";
 
 export default function FamilyMemberPage() {
-    //const familyMember = family.find((familyMember: IFamilyMemberData)=> familyMember.id === id);
-
     const {t} = useTranslation();
     const { id } = useParams();
     const family: IFamilyMemberData[] = t('family', {returnObjects: true});

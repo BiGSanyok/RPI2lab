@@ -1,4 +1,12 @@
 {
+  "home": "Главная",
+  "about": "О сайте",
+  "family-btn": "Семья Ямато",
+  "developers": "Разработчики",
+  "title": "Семья Ямато",
+  "text": "Японская монархия считается самой древней непрерывной наследственной монархией в мире.\n                    Императорский Дом признает 126 монархов, начиная с легендарного императора Дзимму правившего в 7 веке до нашей эры.",
+  "sup-text": "Этот сайт посвящен семье последних императоров нашей планеты.",
+  "footer-text": "Все права защищены. БГУИР. Modernity.",
   "age-info": "Годы жизни",
   "search-input": "Поиск человека",
   "more": "Подробнее",
@@ -7,7 +15,7 @@
   "people": [
     {
       "name": "Александр Недякин",
-      "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Emperor_Higashiyama.jpg/440px-Emperor_Higashiyama.jpg",
+      "photoUrl": "https://sun9-80.userapi.com/impg/mhVgbW9ZjRGW90O6qGxn1E3T7o9psZFGlx19Ig/ACvf9hqU5Pg.jpg?size=1390x1852&quality=95&sign=d810f22f50ddd9ae334ccbfecd9dc4d7&type=album",
       "githubUrl": "https://github.com/BiGSanyok",
       "githubPhoto": "https://avatars.githubusercontent.com/u/126814273?v=4"
     },
@@ -92,30 +100,22 @@
         {
           "title": "1908-1914",
           "cardTitle": "Учился в школе для детей высшей аристократии (кидзоку)",
-          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1328-hirihito",
-          "cardSubtitle": "string",
-          "cardDetailedText": "string"
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1328-hirihito"
         },
         {
           "title": "1914-1921",
           "cardTitle": "Учился в специальном Институте наследного принца под руководством лучших учёных Токийского императорского университета и высших военных чинов Японии",
-          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1328-hirihito",
-          "cardSubtitle": "string",
-          "cardDetailedText": "string"
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1328-hirihito"
         },
         {
           "title": "1926",
           "cardTitle": "Стал Императором Японии",
-          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1328-hirihito",
-          "cardSubtitle": "string",
-          "cardDetailedText": "string"
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1328-hirihito"
         },
         {
           "title": "1989",
           "cardTitle": "Смерть Императора Хирохито",
-          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1328-hirihito",
-          "cardSubtitle": "string",
-          "cardDetailedText": "string"
+          "url": "https://www.japanrai.com/celebrity/46-peoples/imperators/1328-hirihito"
         }
       ],
       "youtube": "https://www.youtube.com/embed/xTdRuInD8fQ?si=1aVQufkHez6d_44h",
@@ -206,7 +206,7 @@
     {
       "name": "Император Комэй",
       "id": "5",
-      "photo": "",
+      "photo": "https://avatars.mds.yandex.net/get-entity_search/5581799/543711314/S122x183_2x",
       "birthYear": "1831",
       "deathYear": "1867",
       "description": "Император Японии, 121-й в династии",
@@ -247,7 +247,7 @@
     {
       "name": "Император Сакурамати",
       "id": "6",
-      "photo": "",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Emperor_Sakuramachi.jpg/1200px-Emperor_Sakuramachi.jpg",
       "birthYear": "1720",
       "deathYear": "1750",
       "description": "Император Японии, 115-й в династии",
@@ -288,7 +288,7 @@
     {
       "name": "Император Хигасияма",
       "id": "7",
-      "photo": "",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Emperor_Higashiyama.jpg/1200px-Emperor_Higashiyama.jpg",
       "birthYear": "1675 ",
       "deathYear": "1709",
       "description": "Император Японии, 113-й в династии",

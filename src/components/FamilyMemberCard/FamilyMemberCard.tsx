@@ -15,7 +15,7 @@ export default function MemberCard({id, name, cardInfo, birthYear, deathYear, ph
     return (
         <div>
             <CardActionArea onClick={handleCardClick}>
-                <CardMedia component="img" height="auto" image={photo} alt={`person ${id}`} />
+                <CardMedia sx={{maxHeight: 500}} component="img" height="auto" image={photo} alt={`person ${id}`} />
                 <CardContent>
                     <Typography className="title" gutterBottom variant="h5" component="div">
                         {name}

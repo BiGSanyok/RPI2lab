@@ -1,8 +1,10 @@
 import React from 'react';
 import "./Footer.css"
 import i18next from 'i18next'
+import {useTranslation} from "react-i18next";
 
 const Footer = () => {
+    const {t} = useTranslation();
     const handleScrollToTop = () => {
         window.scrollTo({ top: 0 });
     };
@@ -12,7 +14,7 @@ const Footer = () => {
     return (
         <footer>
             <div className="FooterContent">
-                <p>&copy; All rights are reserved. BSUIR. Modernity.</p>
+                <p>&copy; {t('footer-text')}</p>
                 <div className="SocialIcons">
                     <a href="https://web.telegram.org/" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-telegram"></i>

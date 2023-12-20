@@ -6,6 +6,7 @@ import {Card, InputAdornment, TextField } from '@mui/material';
 import {useTranslation} from "react-i18next";
 import FamilyMemberCard from "../FamilyMemberCard/FamilyMemberCard"
 import "./family.css"
+import {FaSearch} from "@react-icons/all-files/fa/FaSearch";
 
 
 const Family = () => {
@@ -31,7 +32,7 @@ const Family = () => {
                            InputProps={{
                                startAdornment: (
                                    <InputAdornment position="start">
-                                       {/*<FaSearch/>*/}
+                                       <FaSearch/>
                                    </InputAdornment>
                                ),
                            }}

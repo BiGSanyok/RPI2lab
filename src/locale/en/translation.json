@@ -1,4 +1,12 @@
 {
+  "home": "Home",
+  "about": "About",
+  "family-btn": "Family",
+  "developers": "Developers",
+  "title": "Family Yamato",
+  "text": "The Japanese monarchy is considered to be the oldest continuous hereditary monarchy in the world. The Imperial House recognizes 126 monarchs, beginning with the legendary Emperor Jimmu, who ruled in the 7th century BC.",
+  "sup-text": "This site is dedicated to the family of the last emperors of our planet.",
+  "footer-text": "All rights are reserved. BSUIR. Modernity.",
   "age-info": "Years of life",
   "search-input": "Search the person",
   "more": "More Info",
@@ -7,7 +15,7 @@
   "people": [
     {
       "name": "Alexandr Nediakin",
-      "photoUrl": "",
+      "photoUrl": "https://sun9-80.userapi.com/impg/mhVgbW9ZjRGW90O6qGxn1E3T7o9psZFGlx19Ig/ACvf9hqU5Pg.jpg?size=1390x1852&quality=95&sign=d810f22f50ddd9ae334ccbfecd9dc4d7&type=album",
       "githubUrl": "https://github.com/BiGSanyok",
       "githubPhoto": "https://avatars.githubusercontent.com/u/126814273?v=4"
     },
@@ -198,7 +206,7 @@
     {
       "name": "Emperor Komei",
       "id": "5",
-      "photo": "",
+      "photo": "https://avatars.mds.yandex.net/get-entity_search/5581799/543711314/S122x183_2x",
       "birthYear": "1831",
       "deathYear": "1867",
       "description": "Emperor of Japan, 121st in the dynasty",
@@ -239,7 +247,7 @@
     {
       "name": "Emperor Sakuramati",
       "id": "6",
-      "photo": "",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Emperor_Sakuramachi.jpg/1200px-Emperor_Sakuramachi.jpg",
       "birthYear": "1720",
       "deathYear": "1750",
       "description": "Emperor of Japan, 115th in the dynasty",
@@ -280,7 +288,7 @@
     {
       "name": "Emperor Higashiyama",
       "id": "7",
-      "photo": "",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Emperor_Higashiyama.jpg/1200px-Emperor_Higashiyama.jpg",
       "birthYear": "1675 ",
       "deathYear": "1709",
       "description": "Emperor of Japan, 113th in the dynasty",
