@@ -38,7 +38,7 @@
       "deathYear": "present day",
       "description": "The reigning Emperor of Japan, 125th in the dynasty",
       "cardInfo": "His posthumous name will be Heisei. Currently, Akihito is the only reigning emperor in the world.",
-      "dates": [
+      "items": [
         {
           "title": "1940-1952",
           "cardTitle": "Studied at Gakushuin University's Peers' School (Kadzoku)",
@@ -70,7 +70,7 @@
       "deathYear": "1989",
       "description": "Emperor of Japan, 124th in the dynasty",
       "cardInfo": "Commander-in-chief of the Japanese forces, held the rank of British honorary general and later, honorary field marshal.",
-      "dates": [
+      "items": [
         {
           "title": "1908-1914",
           "cardTitle": "Studied at the Peers' School (Kizoku) for children of the highest aristocracy",
@@ -102,7 +102,7 @@
       "deathYear": "1926",
       "description": "Emperor of Japan, 123rd in the dynasty",
       "cardInfo": "The period of Japanese history under the reign of Emperor Yoshihito is called the Taishō period.",
-      "dates": [
+      "items": [
         {
           "title": "1889",
           "cardTitle": "Was proclaimed Crown Prince",
@@ -134,7 +134,7 @@
       "deathYear": "1912",
       "description": "Emperor of Japan, 122nd in the dynasty",
       "cardInfo": "The period of Japanese history under the reign of Emperor Yoshihito is called the Taishō period. His posthumous name was Mutsuhito, although he is occasionally referred to as 'Emperor Mutsuhito' outside Japan, deceased emperors in Japan are only referred to by their posthumous name.",
-      "dates": [
+      "items": [
         {
           "title": "1868",
           "cardTitle": "Renamed the city of Edo to Tokyo",
@@ -166,7 +166,7 @@
       "deathYear": "1867",
       "description": "Emperor of Japan, 121st in the dynasty",
       "cardInfo": "Emperor Komei was the last emperor to receive an imperial name posthumously.",
-      "dates": [
+      "items": [
         {
           "title": "1840",
           "cardTitle": "Received the title of Crown Prince",
@@ -198,7 +198,7 @@
       "deathYear": "1750",
       "description": "Emperor of Japan, 115th in the dynasty",
       "cardInfo": "Had the title of Wakano-miya.",
-      "dates": [
+      "items": [
         {
           "title": "1728",
           "cardTitle": "Became the Crown Prince",
@@ -230,7 +230,7 @@
       "deathYear": "1709",
       "description": "Emperor of Japan, 113th in the dynasty",
       "cardInfo": "Ascended to the throne after the abdication of Emperor Reigen",
-      "dates": [
+      "items": [
         {
           "title": "1675",
           "cardTitle": "Birth of Emperor Higashiyama",

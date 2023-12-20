@@ -13,7 +13,7 @@ export default function MemberOfTheDay() {
 
     const members: IFamilyMemberData[] = t('family', {returnObjects: true});
 
-    let memberId = Number(localStorage.getItem("memberId")) || getRandomId(members);
+    let memberId = localStorage.getItem("memberId") || getRandomId(members);
 
     if (day !== Number(localStorage.getItem("oldData"))) {
         memberId = getRandomId(members);
