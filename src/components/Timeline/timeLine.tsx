@@ -7,10 +7,10 @@ export default function TimeLine({ items } : IFamilyMemberData) {
         <div className="timeLineDiv">
             <Chrono
                 items={items}
-                mode="HORIZONTAL"
-                allowDynamicUpdate={true}
-                slideShow={true}
-                theme={{ primary: "blue", secondary: "pink", cardBgColor: "lightgray"}}/>
+                mode="VERTICAL"
+                allowDynamicUpdate={false}
+                slideShow={false}
+                theme={{ primary: "crimson", secondary: "pink", cardBgColor: "pink"}}/>
         </div>
     )
 }

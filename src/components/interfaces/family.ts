@@ -11,6 +11,7 @@ export interface IFamilyMemberDates{
 export interface IFamilyMemberData {
     name: string;
     id: string;
+    photo: string;
     birthYear: string;
     deathYear: string;
     description: string;

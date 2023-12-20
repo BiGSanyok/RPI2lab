@@ -2,10 +2,9 @@ import { useNavigate } from 'react-router-dom';
 import { IFamilyMemberData} from "../interfaces/family";
 import { CardActionArea, CardContent, CardMedia, Typography } from '@mui/material';
 import {useTranslation} from "react-i18next";
-import photo from "../../images/Kamu.jpeg"
 import "./FamilyMemberCard.css"
 
-export default function MemberCard({id, name, cardInfo, birthYear, deathYear} : IFamilyMemberData) {
+export default function MemberCard({id, name, cardInfo, birthYear, deathYear, photo} : IFamilyMemberData) {
     const navigate = useNavigate();
     const {t} = useTranslation();
     const handleCardClick = () => {
